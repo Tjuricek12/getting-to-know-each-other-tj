@@ -1,0 +1,81 @@
+
+.GeneratedMarquee {
+font-family:Copperplate;
+font-size:2em;
+font-weight:bold;
+line-height:1.3em;
+color:#FFFFFF;
+}
+.center {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+.image {
+  
+  border-radius: 50%;
+  width: 70%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif)
+}
+.container:hover .overlay {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+body {
+  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif)
+}
+h1 {text-align: center;
+  color: white;
+}
+p{text-align: center;
+  color: white;}
+  h1{
+    color: white;
+  }
+  h2{
+    color: white;
+  }
+  p1{
+    color: white;
+  }
+  p2{
+    color: white;
+  }
+  li{
+    color: white;
+  }
+img {
+  display: block;
+  width: 20;
+  margin-left: auto;
+  margin-right: auto;
+}
