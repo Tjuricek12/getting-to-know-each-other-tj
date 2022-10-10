@@ -19,7 +19,7 @@ color:#FFFFFF;
 .image {
   
   border-radius: 50%;
-  width: 70%;
+  width: 40%;
   height: auto;
 }
 .overlay {
@@ -62,13 +62,15 @@ p{text-align: center;
     color: white;
   }
   h2{
+    text-align: center;
     color: white;
   }
-  p1{
-    color: white;
+  p1{text-align: center;
+    color: rgb(72, 105, 204);
   }
   p2{
     color: white;
+   
   }
   li{
     color: white;
